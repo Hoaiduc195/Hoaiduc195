@@ -38,6 +38,16 @@ I enjoy exploring the space where intelligent systems, visual understanding, sec
   <img src="https://img.shields.io/badge/Competitive%20Programming-7c3aed?style=for-the-badge&logo=codeforces&logoColor=white" alt="Competitive programming" />
 </div>
 
+## Frameworks I've built with
+
+The list below summarizes the frameworks I work with. The project links highlight current public implementations of each stack.
+
+| Area | Frameworks | Projects |
+| --- | --- | --- |
+| Frontend | `React` · `Next.js` · `Vite` · `Tailwind CSS` | [Smacco](https://github.com/Hoaiduc195/smacco_repo) · [Call Shield](https://github.com/Hoaiduc195/call_shield) · [AIC 2026](https://github.com/Hoaiduc195/aic2026) · [ForgeHacks](https://github.com/Hoaiduc195/forgehacks) |
+| Backend & APIs | `NestJS` · `FastAPI` · `Fastify` · `Express` · `Flask` | [AIC 2026](https://github.com/Hoaiduc195/aic2026) · [Smacco](https://github.com/Hoaiduc195/smacco_repo) · [Call Shield](https://github.com/Hoaiduc195/call_shield) · [R2 Console](https://github.com/Hoaiduc195/r2_console) |
+| AI, ML & realtime | `PyTorch` · `Transformers` · `LiveKit` | [AIC 2026](https://github.com/Hoaiduc195/aic2026) · [ForgeHacks](https://github.com/Hoaiduc195/forgehacks) |
+
 ## Toolbox
 
 <table>
@@ -47,13 +57,19 @@ I enjoy exploring the space where intelligent systems, visual understanding, sec
       <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="C" />
       <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />
     </td>
     <td valign="top" width="33%">
-      <strong>Backend &amp; data</strong><br /><br />
+      <strong>Frameworks &amp; data</strong><br /><br />
       <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
       <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
       <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
       <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
