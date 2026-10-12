@@ -93,13 +93,13 @@ The list below summarizes the frameworks I work with. The project links highligh
 <br />
 
 <div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Hoaiduc195&theme=dark&hide_border=true&ring=5eead4&fire=f59e0b&currStreakLabel=5eead4" alt="GitHub contribution streak" width="70%" />
+  <img src="https://streak-stats.demolab.com/?user=Hoaiduc195&theme=dark&hide_border=true&ring=5eead4&fire=f59e0b&currStreakLabel=5eead4" alt="GitHub contribution streak" width="70%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hoaiduc195&bg_color=0f172a&color=cbd5e1&line=2dd4bf&point=fbbf24&area=true&hide_border=true" alt="GitHub contribution graph" width="96%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hoaiduc195&theme=github_dark" alt="GitHub profile summary" width="96%" />
 </div>
 
 ## Let's connect
