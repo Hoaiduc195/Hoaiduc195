@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="100%" height="100%" role="img" aria-label="Hoai Duc Duong — Pixel Art Daylight Banner">
+  <style>
+    .px-title {
+      font-family: 'Press Start 2P', 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 32px;
+      font-weight: 900;
+      letter-spacing: 3px;
+    }
+    .px-sub {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+    .px-tag {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+
+    @keyframes cloudDrift {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(28px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes cloudDriftSlow {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(-24px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes smokeRise {
+      0% { transform: translate(0px, 0px); opacity: 0.75; }
+      100% { transform: translate(12px, -28px); opacity: 0; }
+    }
+    @keyframes blinkStep {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes sunPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.55; }
+    }
+
+    .cloud1 { animation: cloudDrift 16s steps(14) infinite; }
+    .cloud2 { animation: cloudDriftSlow 20s steps(12) infinite; }
+    .smoke1 { animation: smokeRise 3.2s steps(6) infinite; }
+    .smoke2 { animation: smokeRise 3.2s steps(6) infinite 1.6s; }
+    .cursor { animation: blinkStep 1s steps(2) infinite; }
+    .sunrays { animation: sunPulse 2.6s steps(2) infinite; }
+  </style>
+
+  <!-- Crisp Pixel Art Daylight Scene -->
+  <g shape-rendering="crispEdges">
+    <!-- Stepped Pixel Sky Bands (Cozy Morning Daylight) -->
+    <rect x="8" y="8" width="944" height="56" fill="#7ec4e2" />
+    <rect x="8" y="64" width="944" height="52" fill="#9cd4ec" />
+    <rect x="8" y="116" width="944" height="48" fill="#c2e5f5" />
+    <rect x="8" y="164" width="944" height="44" fill="#e6f2ea" />
+    <rect x="8" y="208" width="944" height="64" fill="#d9e8cf" />
+
+    <!-- Pixel Sun -->
+    <g transform="translate(812, 32)">
+      <rect x="8" y="4" width="24" height="24" fill="#ffd166" />
+      <rect x="4" y="8" width="32" height="16" fill="#ffd166" />
+      <rect x="12" y="8" width="16" height="16" fill="#ffe89c" />
+      <g class="sunrays" fill="#ffbe4f">
+        <rect x="18" y="-4" width="4" height="4" />
+        <rect x="18" y="32" width="4" height="4" />
+        <rect x="-4" y="14" width="4" height="4" />
+        <rect x="40" y="14" width="4" height="4" />
+        <rect x="2" y="0" width="4" height="4" />
+        <rect x="34" y="0" width="4" height="4" />
+        <rect x="2" y="28" width="4" height="4" />
+        <rect x="34" y="28" width="4" height="4" />
+      </g>
+    </g>
+
+    <!-- Fluffy Pixel Clouds -->
+    <g class="cloud1">
+      <rect x="520" y="76" width="48" height="8" fill="#ffffff" />
+      <rect x="512" y="84" width="68" height="8" fill="#ffffff" />
+      <rect x="528" y="68" width="28" height="8" fill="#ffffff" />
+      <rect x="516" y="92" width="60" height="4" fill="#d6ebf5" />
+    </g>
+    <g class="cloud2">
+      <rect x="708" y="92" width="52" height="8" fill="#ffffff" />
+      <rect x="696" y="100" width="76" height="8" fill="#ffffff" />
+      <rect x="720" y="84" width="28" height="8" fill="#ffffff" />
+      <rect x="700" y="108" width="68" height="4" fill="#d6ebf5" />
+    </g>
+
+    <!-- Distant Soft Blue-Sage Mountains -->
+    <g fill="#9ab8ba">
+      <rect x="560" y="180" width="120" height="40" />
+      <rect x="580" y="168" width="80" height="12" />
+      <rect x="600" y="156" width="40" height="12" />
+      <rect x="612" y="148" width="16" height="8" />
+
+      <rect x="720" y="172" width="160" height="48" />
+      <rect x="744" y="156" width="112" height="16" />
+      <rect x="768" y="140" width="64" height="16" />
+      <rect x="784" y="128" width="32" height="12" />
+    </g>
+
+    <!-- Rolling Pixel Meadow Hills -->
+    <rect x="8" y="220" width="944" height="52" fill="#5c8a5e" />
+    <rect x="8" y="220" width="944" height="8" fill="#76a868" />
+    <rect x="520" y="212" width="432" height="8" fill="#76a868" />
+    <rect x="640" y="204" width="312" height="8" fill="#8cbf75" />
+
+    <!-- Pixel Pine Trees -->
+    <g transform="translate(652, 168)">
+      <rect x="12" y="36" width="8" height="12" fill="#7a5136" />
+      <rect x="4" y="28" width="24" height="8" fill="#3a6b4c" />
+      <rect x="8" y="20" width="16" height="8" fill="#49825c" />
+      <rect x="10" y="12" width="12" height="8" fill="#5a996d" />
+      <rect x="14" y="4" width="4" height="8" fill="#6fb080" />
+    </g>
+    <g transform="translate(880, 164)">
+      <rect x="12" y="40" width="8" height="12" fill="#7a5136" />
+      <rect x="2" y="32" width="28" height="8" fill="#3a6b4c" />
+      <rect x="6" y="22" width="20" height="10" fill="#49825c" />
+      <rect x="10" y="12" width="12" height="10" fill="#5a996d" />
+      <rect x="14" y="4" width="4" height="8" fill="#6fb080" />
+    </g>
+
+    <!-- Cozy Pixel Coding Cabin (Daylight) -->
+    <g transform="translate(744, 148)">
+      <!-- Chimney & Smoke -->
+      <rect x="68" y="4" width="12" height="24" fill="#9e6d5b" />
+      <rect x="66" y="4" width="16" height="4" fill="#b88470" />
+      <g class="smoke1" fill="#ffffff">
+        <rect x="70" y="-6" width="8" height="8" />
+        <rect x="74" y="-12" width="8" height="6" />
+      </g>
+      <g class="smoke2" fill="#eef6fa">
+        <rect x="72" y="-4" width="6" height="6" />
+      </g>
+
+      <!-- Roof -->
+      <rect x="16" y="12" width="68" height="8" fill="#c45d4b" />
+      <rect x="8" y="20" width="84" height="8" fill="#d96f5b" />
+      <rect x="0" y="28" width="100" height="8" fill="#a64b3c" />
+
+      <!-- Warm Cream Cabin Walls -->
+      <rect x="12" y="36" width="76" height="40" fill="#f5ecd9" />
+      <rect x="12" y="36" width="76" height="4" fill="#dfd2b8" />
+
+      <!-- Window -->
+      <rect x="24" y="46" width="20" height="16" fill="#82c4e3" />
+      <rect x="33" y="46" width="2" height="16" fill="#7a5136" />
+      <rect x="24" y="53" width="20" height="2" fill="#7a5136" />
+
+      <!-- Door -->
+      <rect x="58" y="48" width="18" height="28" fill="#8f5b3a" />
+      <rect x="62" y="52" width="10" height="10" fill="#a8d8f0" />
+      <rect x="72" y="62" width="2" height="2" fill="#ffd166" />
+    </g>
+
+    <!-- RPG Nameplate Dialog Box (Warm Parchment) -->
+    <rect x="36" y="42" width="532" height="164" fill="#fbf8f1" fill-opacity="0.95" />
+    <!-- Stepped Pixel Inner Box Border -->
+    <rect x="40" y="38" width="524" height="4" fill="#3a3d4e" />
+    <rect x="40" y="206" width="524" height="4" fill="#3a3d4e" />
+    <rect x="32" y="46" width="4" height="156" fill="#3a3d4e" />
+    <rect x="568" y="46" width="4" height="156" fill="#3a3d4e" />
+    <!-- Corner accent pixels -->
+    <rect x="36" y="42" width="4" height="4" fill="#c97b36" />
+    <rect x="564" y="42" width="4" height="4" fill="#c97b36" />
+    <rect x="36" y="202" width="4" height="4" fill="#c97b36" />
+    <rect x="564" y="202" width="4" height="4" fill="#c97b36" />
+
+    <!-- Pixel Level Tag Pill -->
+    <rect x="58" y="60" width="234" height="22" fill="#efe7d6" />
+    <rect x="58" y="60" width="6" height="22" fill="#c97b36" />
+
+    <!-- Outer Stepped Pixel Frame -->
+    <rect x="8" y="0" width="944" height="8" fill="#3a3d4e" />
+    <rect x="8" y="272" width="944" height="8" fill="#3a3d4e" />
+    <rect x="0" y="8" width="8" height="264" fill="#3a3d4e" />
+    <rect x="952" y="8" width="8" height="264" fill="#3a3d4e" />
+    <rect x="8" y="8" width="8" height="8" fill="#3a3d4e" />
+    <rect x="944" y="8" width="8" height="8" fill="#3a3d4e" />
+    <rect x="8" y="264" width="8" height="8" fill="#3a3d4e" />
+    <rect x="944" y="264" width="8" height="8" fill="#3a3d4e" />
+  </g>
+
+  <!-- Crisp Pixel Text Layer -->
+  <text x="74" y="75" class="px-tag" fill="#a85d1e">CS @ HCMUS · @HOAIDUC195</text>
+
+  <!-- Title with 2px pixel shadow -->
+  <text x="61" y="131" class="px-title" fill="#dfd5c3">HOAI DUC DUONG</text>
+  <text x="58" y="128" class="px-title" fill="#232635">HOAI DUC DUONG</text>
+
+  <text x="58" y="160" class="px-sub" fill="#46526b">AI · Computer Vision · Security · Algorithms</text>
+  <text x="58" y="186" class="px-tag" fill="#6b7280">&gt; Building intelligent &amp; resilient systems<tspan class="cursor" fill="#c97b36">_</tspan></text>
+</svg>

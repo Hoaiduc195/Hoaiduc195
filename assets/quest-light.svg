@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 212" width="100%" height="100%" role="img" aria-label="RPG Character Sheet and Focus Quests — Light">
+  <style>
+    .hdr {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: #b5651d;
+    }
+    .lbl {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #232635;
+    }
+    .desc {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11.5px;
+      fill: #5a6275;
+    }
+    .stat-txt {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 10.5px;
+      font-weight: 700;
+      fill: #3a3d4e;
+    }
+    @keyframes idleBob {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    .sprite { animation: idleBob 1.4s steps(2) infinite; }
+  </style>
+
+  <g shape-rendering="crispEdges">
+    <!-- Warm Parchment Background -->
+    <rect x="8" y="8" width="944" height="196" fill="#fbf8f1" />
+
+    <!-- Outer Pixel Frame -->
+    <rect x="8" y="0" width="944" height="8" fill="#3a3d4e" />
+    <rect x="8" y="204" width="944" height="8" fill="#3a3d4e" />
+    <rect x="0" y="8" width="8" height="196" fill="#3a3d4e" />
+    <rect x="952" y="8" width="8" height="196" fill="#3a3d4e" />
+    <rect x="8" y="8" width="8" height="8" fill="#c97b36" />
+    <rect x="944" y="8" width="8" height="8" fill="#c97b36" />
+    <rect x="8" y="196" width="8" height="8" fill="#c97b36" />
+    <rect x="944" y="196" width="8" height="8" fill="#c97b36" />
+
+    <!-- Divider -->
+    <rect x="372" y="24" width="4" height="164" fill="#e2d9c8" />
+
+    <!-- Left Panel: Pixel Avatar Frame -->
+    <rect x="32" y="54" width="84" height="84" fill="#efe7d6" />
+    <rect x="32" y="50" width="84" height="4" fill="#3a3d4e" />
+    <rect x="32" y="138" width="84" height="4" fill="#3a3d4e" />
+    <rect x="28" y="54" width="4" height="84" fill="#3a3d4e" />
+    <rect x="116" y="54" width="4" height="84" fill="#3a3d4e" />
+
+    <!-- Cute Pixel Coder Sprite -->
+    <g class="sprite" transform="translate(50, 72)">
+      <!-- Hair -->
+      <rect x="12" y="0" width="24" height="4" fill="#2b263d" />
+      <rect x="8" y="4" width="32" height="8" fill="#2b263d" />
+      <!-- Face -->
+      <rect x="12" y="12" width="24" height="16" fill="#f5cfa0" />
+      <!-- Glasses -->
+      <rect x="12" y="16" width="10" height="6" fill="#2b8cb8" />
+      <rect x="26" y="16" width="10" height="6" fill="#2b8cb8" />
+      <rect x="22" y="18" width="4" height="2" fill="#2b263d" />
+      <!-- Hoodie -->
+      <rect x="8" y="28" width="32" height="16" fill="#4f6d9a" />
+      <rect x="16" y="28" width="16" height="4" fill="#e5a93c" />
+      <!-- Laptop -->
+      <rect x="14" y="36" width="20" height="10" fill="#6b7280" />
+      <rect x="18" y="39" width="12" height="4" fill="#82c4e3" />
+    </g>
+
+    <!-- RPG Stat Bars -->
+    <g transform="translate(136, 108)">
+      <rect x="44" y="0" width="160" height="10" fill="#e6decb" />
+      <rect x="44" y="0" width="144" height="10" fill="#3b9c85" />
+      <rect x="44" y="22" width="160" height="10" fill="#e6decb" />
+      <rect x="44" y="22" width="132" height="10" fill="#468faf" />
+      <rect x="44" y="44" width="160" height="10" fill="#e6decb" />
+      <rect x="44" y="44" width="120" height="10" fill="#d48c3b" />
+    </g>
+
+    <!-- Right Panel: 5 Pixel Quest Icons -->
+    <!-- 1. GenAI Sparkle -->
+    <g transform="translate(404, 54)" fill="#2a9d8f">
+      <rect x="6" y="0" width="4" height="16" />
+      <rect x="0" y="6" width="16" height="4" />
+      <rect x="4" y="4" width="8" height="8" fill="#fbf8f1" />
+    </g>
+    <!-- 2. ML Chip -->
+    <g transform="translate(404, 84)" fill="#3b82a6">
+      <rect x="4" y="4" width="8" height="8" />
+      <rect x="6" y="0" width="4" height="4" />
+      <rect x="6" y="12" width="4" height="4" />
+      <rect x="0" y="6" width="4" height="4" />
+      <rect x="12" y="6" width="4" height="4" />
+    </g>
+    <!-- 3. Vision Eye -->
+    <g transform="translate(404, 114)" fill="#4c6ef5">
+      <rect x="4" y="2" width="8" height="4" />
+      <rect x="0" y="6" width="16" height="4" />
+      <rect x="4" y="10" width="8" height="4" />
+      <rect x="6" y="6" width="4" height="4" fill="#fbf8f1" />
+    </g>
+    <!-- 4. Security Shield -->
+    <g transform="translate(404, 144)" fill="#d64550">
+      <rect x="2" y="0" width="12" height="4" />
+      <rect x="2" y="4" width="12" height="6" />
+      <rect x="4" y="10" width="8" height="3" />
+      <rect x="6" y="13" width="4" height="3" />
+      <rect x="6" y="4" width="4" height="4" fill="#fbf8f1" />
+    </g>
+    <!-- 5. CP Code -->
+    <g transform="translate(404, 174)" fill="#c97b36">
+      <rect x="0" y="6" width="4" height="4" />
+      <rect x="4" y="2" width="4" height="4" />
+      <rect x="4" y="10" width="4" height="4" />
+      <rect x="12" y="6" width="4" height="4" />
+      <rect x="8" y="2" width="4" height="4" />
+      <rect x="8" y="10" width="4" height="4" />
+    </g>
+  </g>
+
+  <!-- Left Text -->
+  <text x="32" y="38" class="hdr">PLAYER STATUS</text>
+  <text x="136" y="70" class="lbl">Hoai Duc Duong</text>
+  <text x="136" y="90" class="desc">Class: CS @ HCMUS</text>
+
+  <text x="136" y="117" class="stat-txt">INT</text>
+  <text x="136" y="139" class="stat-txt">VIS</text>
+  <text x="136" y="161" class="stat-txt">SEC</text>
+
+  <text x="32" y="182" class="desc">Loc: Ho Chi Minh City</text>
+
+  <!-- Right Text: Quests -->
+  <text x="404" y="38" class="hdr">ACTIVE QUESTS</text>
+
+  <text x="434" y="67" class="lbl">GenAI &amp; LLMs</text>
+  <text x="642" y="67" class="desc">Agents, reasoning &amp; inference</text>
+
+  <text x="434" y="97" class="lbl">ML &amp; RL</text>
+  <text x="642" y="97" class="desc">Deep learning &amp; optimization</text>
+
+  <text x="434" y="127" class="lbl">Computer Vision</text>
+  <text x="642" y="127" class="desc">Perception &amp; visual understanding</text>
+
+  <text x="434" y="157" class="lbl">Security</text>
+  <text x="642" y="157" class="desc">Secure systems &amp; defense</text>
+
+  <text x="434" y="187" class="lbl">Competitive Prog.</text>
+  <text x="642" y="187" class="desc">Algorithms &amp; problem solving</text>
+</svg>
