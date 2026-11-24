@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 225" width="100%" height="100%" role="img" aria-label="About and Research Interests">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10131a" />
+      <stop offset="100%" stop-color="#131720" />
+    </linearGradient>
+
+    <linearGradient id="vRule" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a46b" stop-opacity="0" />
+      <stop offset="50%" stop-color="#c8a46b" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#c8a46b" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .kicker {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: 2.6px;
+      fill: #c8a46b;
+      font-weight: 600;
+    }
+    .heading {
+      font-family: Georgia, 'Palatino Linotype', serif;
+      font-size: 21px;
+      font-weight: 700;
+      fill: #f5f2eb;
+    }
+    .body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 13px;
+      fill: #9ca3af;
+    }
+    .item-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #ece8df;
+    }
+    .item-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 12px;
+      fill: #8b8d98;
+    }
+    .num {
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: 12.5px;
+      fill: #c8a46b;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="998" height="223" rx="12" fill="url(#panelBg)" stroke="#242833" stroke-width="1.1" />
+
+  <!-- Left Column: Profile Note -->
+  <g transform="translate(40, 38)">
+    <text x="0" y="0" class="kicker">PROFILE</text>
+    <text x="0" y="30" class="heading">Thoughtful Engineering</text>
+    <line x1="0" y1="45" x2="42" y2="45" stroke="#c8a46b" stroke-width="1.3" />
+
+    <text x="0" y="76" class="body">I'm a Computer Science student at the University of</text>
+    <text x="0" y="96" class="body">Science (HCMUS), drawn to problems that combine</text>
+    <text x="0" y="116" class="body">mathematical rigor with practical, resilient systems.</text>
+
+    <text x="0" y="148" class="body" fill="#b8b5ad">Currently diving deeper into multimodal AI, vision,</text>
+    <text x="0" y="168" class="body" fill="#b8b5ad">and security-minded software architecture.</text>
+  </g>
+
+  <!-- Center Vertical Hairline -->
+  <line x1="456" y1="26" x2="456" y2="199" stroke="url(#vRule)" stroke-width="1" />
+
+  <!-- Right Column: 5 Curated Focus Areas -->
+  <g transform="translate(496, 38)">
+    <text x="0" y="0" class="kicker">AREAS OF EXPLORATION</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(0, 28)">
+      <text x="0" y="0" class="num">01</text>
+      <text x="28" y="0" class="item-title">Generative AI &amp; LLMs</text>
+      <text x="215" y="0" class="item-desc">Reasoning, agents &amp; applied intelligence</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 62)">
+      <text x="0" y="0" class="num">02</text>
+      <text x="28" y="0" class="item-title">Machine Learning &amp; RL</text>
+      <text x="215" y="0" class="item-desc">Representation learning &amp; decision making</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0, 96)">
+      <text x="0" y="0" class="num">03</text>
+      <text x="28" y="0" class="item-title">Computer Vision</text>
+      <text x="215" y="0" class="item-desc">Visual perception &amp; scene understanding</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0, 130)">
+      <text x="0" y="0" class="num">04</text>
+      <text x="28" y="0" class="item-title">Security</text>
+      <text x="215" y="0" class="item-desc">Secure computing &amp; system defense</text>
+    </g>
+
+    <!-- Row 5 -->
+    <g transform="translate(0, 164)">
+      <text x="0" y="0" class="num">05</text>
+      <text x="28" y="0" class="item-title">Competitive Programming</text>
+      <text x="215" y="0" class="item-desc">Algorithms, complexity &amp; problem solving</text>
+    </g>
+  </g>
+</svg>
