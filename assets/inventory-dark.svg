@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%" role="img" aria-label="Tech Inventory — Dark">
+  <style>
+    .hdr {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: #f5c26b;
+    }
+    .cat {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .item {
+      font-family: 'Cascadia Mono', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11.5px;
+      font-weight: 700;
+      fill: #f0ece1;
+    }
+  </style>
+
+  <g shape-rendering="crispEdges">
+    <!-- Background -->
+    <rect x="8" y="8" width="944" height="204" fill="#141824" />
+
+    <!-- Outer Pixel Frame -->
+    <rect x="8" y="0" width="944" height="8" fill="#3b4261" />
+    <rect x="8" y="212" width="944" height="8" fill="#3b4261" />
+    <rect x="0" y="8" width="8" height="204" fill="#3b4261" />
+    <rect x="952" y="8" width="8" height="204" fill="#3b4261" />
+    <rect x="8" y="8" width="8" height="8" fill="#f5c26b" />
+    <rect x="944" y="8" width="8" height="8" fill="#f5c26b" />
+    <rect x="8" y="204" width="8" height="8" fill="#f5c26b" />
+    <rect x="944" y="204" width="8" height="8" fill="#f5c26b" />
+
+    <!-- Category Bullet Pixels -->
+    <rect x="32" y="61" width="8" height="8" fill="#5eead4" />
+    <rect x="32" y="99" width="8" height="8" fill="#8ecae6" />
+    <rect x="32" y="137" width="8" height="8" fill="#f5c26b" />
+    <rect x="32" y="175" width="8" height="8" fill="#fb7185" />
+
+    <!-- Row 1 Slots: LANGUAGES -->
+    <g fill="#1d2438" stroke="#3b4261" stroke-width="2">
+      <rect x="164" y="54" width="40" height="24" />
+      <rect x="212" y="54" width="54" height="24" />
+      <rect x="274" y="54" width="78" height="24" />
+      <rect x="360" y="54" width="108" height="24" />
+      <rect x="476" y="54" width="108" height="24" />
+      <rect x="592" y="54" width="70" height="24" />
+    </g>
+    <g fill="#5eead4">
+      <rect x="164" y="54" width="4" height="24" />
+      <rect x="212" y="54" width="4" height="24" />
+      <rect x="274" y="54" width="4" height="24" />
+      <rect x="360" y="54" width="4" height="24" />
+      <rect x="476" y="54" width="4" height="24" />
+      <rect x="592" y="54" width="4" height="24" />
+    </g>
+
+    <!-- Row 2 Slots: AI & DATA -->
+    <g fill="#1d2438" stroke="#3b4261" stroke-width="2">
+      <rect x="164" y="92" width="86" height="24" />
+      <rect x="258" y="92" width="122" height="24" />
+      <rect x="388" y="92" width="84" height="24" />
+      <rect x="480" y="92" width="72" height="24" />
+      <rect x="560" y="92" width="78" height="24" />
+      <rect x="646" y="92" width="122" height="24" />
+    </g>
+    <g fill="#8ecae6">
+      <rect x="164" y="92" width="4" height="24" />
+      <rect x="258" y="92" width="4" height="24" />
+      <rect x="388" y="92" width="4" height="24" />
+      <rect x="480" y="92" width="4" height="24" />
+      <rect x="560" y="92" width="4" height="24" />
+      <rect x="646" y="92" width="4" height="24" />
+    </g>
+
+    <!-- Row 3 Slots: WEB & APIS -->
+    <g fill="#1d2438" stroke="#3b4261" stroke-width="2">
+      <rect x="164" y="130" width="68" height="24" />
+      <rect x="240" y="130" width="80" height="24" />
+      <rect x="328" y="130" width="58" height="24" />
+      <rect x="394" y="130" width="88" height="24" />
+      <rect x="490" y="130" width="82" height="24" />
+      <rect x="580" y="130" width="76" height="24" />
+      <rect x="664" y="130" width="82" height="24" />
+      <rect x="754" y="130" width="82" height="24" />
+      <rect x="844" y="130" width="68" height="24" />
+    </g>
+    <g fill="#f5c26b">
+      <rect x="164" y="130" width="4" height="24" />
+      <rect x="240" y="130" width="4" height="24" />
+      <rect x="328" y="130" width="4" height="24" />
+      <rect x="394" y="130" width="4" height="24" />
+      <rect x="490" y="130" width="4" height="24" />
+      <rect x="580" y="130" width="4" height="24" />
+      <rect x="664" y="130" width="4" height="24" />
+      <rect x="754" y="130" width="4" height="24" />
+      <rect x="844" y="130" width="4" height="24" />
+    </g>
+
+    <!-- Row 4 Slots: DB & TOOLS -->
+    <g fill="#1d2438" stroke="#3b4261" stroke-width="2">
+      <rect x="164" y="168" width="108" height="24" />
+      <rect x="280" y="168" width="88" height="24" />
+      <rect x="376" y="168" width="52" height="24" />
+      <rect x="436" y="168" width="78" height="24" />
+      <rect x="522" y="168" width="152" height="24" />
+    </g>
+    <g fill="#fb7185">
+      <rect x="164" y="168" width="4" height="24" />
+      <rect x="280" y="168" width="4" height="24" />
+      <rect x="376" y="168" width="4" height="24" />
+      <rect x="436" y="168" width="4" height="24" />
+      <rect x="522" y="168" width="4" height="24" />
+    </g>
+  </g>
+
+  <!-- Header & Categories -->
+  <text x="32" y="36" class="hdr">TECH INVENTORY</text>
+  <text x="48" y="69" class="cat" fill="#5eead4">LANGUAGES</text>
+  <text x="48" y="107" class="cat" fill="#8ecae6">AI &amp; DATA</text>
+  <text x="48" y="145" class="cat" fill="#f5c26b">WEB &amp; APIS</text>
+  <text x="48" y="183" class="cat" fill="#fb7185">DB &amp; TOOLS</text>
+
+  <!-- Row 1 Labels -->
+  <text x="186" y="70" text-anchor="middle" class="item">C</text>
+  <text x="241" y="70" text-anchor="middle" class="item">C++</text>
+  <text x="315" y="70" text-anchor="middle" class="item">Python</text>
+  <text x="416" y="70" text-anchor="middle" class="item">TypeScript</text>
+  <text x="532" y="70" text-anchor="middle" class="item">JavaScript</text>
+  <text x="629" y="70" text-anchor="middle" class="item">LaTeX</text>
+
+  <!-- Row 2 Labels -->
+  <text x="209" y="108" text-anchor="middle" class="item">PyTorch</text>
+  <text x="321" y="108" text-anchor="middle" class="item">Transformers</text>
+  <text x="432" y="108" text-anchor="middle" class="item">LiveKit</text>
+  <text x="518" y="108" text-anchor="middle" class="item">NumPy</text>
+  <text x="601" y="108" text-anchor="middle" class="item">Pandas</text>
+  <text x="709" y="108" text-anchor="middle" class="item">scikit-learn</text>
+
+  <!-- Row 3 Labels -->
+  <text x="200" y="146" text-anchor="middle" class="item">React</text>
+  <text x="282" y="146" text-anchor="middle" class="item">Next.js</text>
+  <text x="359" y="146" text-anchor="middle" class="item">Vite</text>
+  <text x="440" y="146" text-anchor="middle" class="item">Tailwind</text>
+  <text x="533" y="146" text-anchor="middle" class="item">FastAPI</text>
+  <text x="620" y="146" text-anchor="middle" class="item">NestJS</text>
+  <text x="707" y="146" text-anchor="middle" class="item">Fastify</text>
+  <text x="797" y="146" text-anchor="middle" class="item">Express</text>
+  <text x="880" y="146" text-anchor="middle" class="item">Flask</text>
+
+  <!-- Row 4 Labels -->
+  <text x="220" y="184" text-anchor="middle" class="item">PostgreSQL</text>
+  <text x="326" y="184" text-anchor="middle" class="item">MongoDB</text>
+  <text x="404" y="184" text-anchor="middle" class="item">Git</text>
+  <text x="477" y="184" text-anchor="middle" class="item">GitHub</text>
+  <text x="600" y="184" text-anchor="middle" class="item">Windows Terminal</text>
+</svg>

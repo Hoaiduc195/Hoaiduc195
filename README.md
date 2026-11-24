@@ -34,22 +34,12 @@
 
 <br />
 
-### Inventory
-
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,py,ts,js,latex,pytorch,react,nextjs,vite,tailwind&perline=11&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=c,cpp,py,ts,js,latex,pytorch,react,nextjs,vite,tailwind&perline=11&theme=light" />
-    <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,js,latex,pytorch,react,nextjs,vite,tailwind&perline=11&theme=dark" alt="Languages, AI and Frontend" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/inventory-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/inventory-light.svg" />
+    <img alt="Tech Inventory" src="./assets/inventory-dark.svg" width="100%" />
   </picture>
-  <br /><br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=fastapi,nestjs,express,flask,postgres,mongodb,git,github&perline=8&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,nestjs,express,flask,postgres,mongodb,git,github&perline=8&theme=light" />
-    <img src="https://skillicons.dev/icons?i=fastapi,nestjs,express,flask,postgres,mongodb,git,github&perline=8&theme=dark" alt="Backend, Databases and Tools" />
-  </picture>
-  <br /><br />
-  <sub><code>Transformers</code> · <code>LiveKit</code> · <code>Fastify</code> · <code>NumPy</code> · <code>Pandas</code> · <code>scikit-learn</code> · <code>Windows Terminal</code></sub>
 </div>
 
 <br />
