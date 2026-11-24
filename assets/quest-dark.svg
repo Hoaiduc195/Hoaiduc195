@@ -56,32 +56,34 @@
     <rect x="116" y="54" width="4" height="84" fill="#5a658c" />
 
     <!-- Cute Pixel Coder Sprite (12x12 scaled 4x) -->
-    <g class="sprite" transform="translate(50, 72)">
-      <!-- Hair -->
-      <rect x="12" y="0" width="24" height="4" fill="#2b263d" />
-      <rect x="8" y="4" width="32" height="8" fill="#2b263d" />
-      <!-- Face -->
-      <rect x="12" y="12" width="24" height="16" fill="#f5cfa0" />
-      <!-- Glasses -->
-      <rect x="12" y="16" width="10" height="6" fill="#38bdf8" />
-      <rect x="26" y="16" width="10" height="6" fill="#38bdf8" />
-      <rect x="22" y="18" width="4" height="2" fill="#2b263d" />
-      <!-- Hoodie -->
-      <rect x="8" y="28" width="32" height="16" fill="#4f6d9a" />
-      <rect x="16" y="28" width="16" height="4" fill="#f5c26b" />
-      <!-- Laptop -->
-      <rect x="14" y="36" width="20" height="10" fill="#cbd5e1" />
-      <rect x="18" y="39" width="12" height="4" fill="#5eead4" />
+    <g transform="translate(50, 72)">
+      <g class="sprite">
+        <!-- Hair -->
+        <rect x="12" y="0" width="24" height="4" fill="#2b263d" />
+        <rect x="8" y="4" width="32" height="8" fill="#2b263d" />
+        <!-- Face -->
+        <rect x="12" y="12" width="24" height="16" fill="#f5cfa0" />
+        <!-- Glasses -->
+        <rect x="12" y="16" width="10" height="6" fill="#38bdf8" />
+        <rect x="26" y="16" width="10" height="6" fill="#38bdf8" />
+        <rect x="22" y="18" width="4" height="2" fill="#2b263d" />
+        <!-- Hoodie -->
+        <rect x="8" y="28" width="32" height="16" fill="#4f6d9a" />
+        <rect x="16" y="28" width="16" height="4" fill="#f5c26b" />
+        <!-- Laptop -->
+        <rect x="14" y="36" width="20" height="10" fill="#cbd5e1" />
+        <rect x="18" y="39" width="12" height="4" fill="#5eead4" />
+      </g>
     </g>
 
     <!-- RPG Stat Bars -->
     <g transform="translate(136, 108)">
-      <rect x="44" y="0" width="160" height="10" fill="#222a45" />
-      <rect x="44" y="0" width="144" height="10" fill="#5eead4" />
-      <rect x="44" y="22" width="160" height="10" fill="#222a45" />
-      <rect x="44" y="22" width="132" height="10" fill="#8ecae6" />
-      <rect x="44" y="44" width="160" height="10" fill="#222a45" />
-      <rect x="44" y="44" width="120" height="10" fill="#f5c26b" />
+      <rect x="36" y="0" width="168" height="10" fill="#222a45" />
+      <rect x="36" y="0" width="152" height="10" fill="#5eead4" />
+      <rect x="36" y="22" width="168" height="10" fill="#222a45" />
+      <rect x="36" y="22" width="138" height="10" fill="#8ecae6" />
+      <rect x="36" y="44" width="168" height="10" fill="#222a45" />
+      <rect x="36" y="44" width="126" height="10" fill="#f5c26b" />
     </g>
 
     <!-- Right Panel: 5 Pixel Quest Icons -->
