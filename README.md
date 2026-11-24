@@ -1,118 +1,88 @@
 <div align="center">
   <a href="https://github.com/Hoaiduc195">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0b1220,42:0f766e,72:0891b2,100:0b1220&text=Hoai%20Duc%20Duong&fontColor=f8fafc&fontSize=48&fontAlignY=34&desc=Computer%20Science%20Student%20%40%20HCMUS&descColor=fde68a&descSize=18&descAlignY=57&animation=fadeIn" alt="Hoai Duc Duong profile banner" width="100%" />
+    <img src="./assets/hero.svg" alt="Hoai Duc Duong — Computer Science Student at HCMUS" width="100%" />
   </a>
 </div>
+
+<br />
 
 <div align="center">
   <a href="https://github.com/Hoaiduc195">
-    <img src="https://img.shields.io/badge/GitHub-Hoaiduc195-0f172a?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" />
+    <img src="https://img.shields.io/badge/GitHub-Hoaiduc195-090d1f?style=for-the-badge&logo=github&logoColor=5eead4&labelColor=0f172a" alt="GitHub" />
   </a>
   <a href="https://linkedin.com/in/dhduc195">
-    <img src="https://img.shields.io/badge/LinkedIn-dhduc195-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-dhduc195-090d1f?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=0f172a" alt="LinkedIn" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Hoaiduc195&style=flat-square&color=0f766e&label=PROFILE+VIEWS" alt="Profile views" />
-</div>
-
-<br />
-
-## Hey, I'm Hoai Duc Duong 👋
-
-### Student at HCMUS · Computer Science
-
-I enjoy exploring the space where intelligent systems, visual understanding, secure computing, and algorithmic problem solving meet.
-
-<div align="center">
-  <a href="https://github.com/Hoaiduc195?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore%20my%20repositories-0f766e?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" />
-  </a>
-</div>
-
-## Areas I explore
-
-<div align="center">
-  <img src="https://img.shields.io/badge/GenAI%20%26%20LLMs-0f766e?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI and large language models" />
-  <img src="https://img.shields.io/badge/Machine%20Learning%20%26%20RL-0891b2?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine learning and reinforcement learning" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-2563eb?style=for-the-badge&logo=opencv&logoColor=white" alt="Computer vision" />
-  <img src="https://img.shields.io/badge/Security-dc2626?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Security" />
-  <img src="https://img.shields.io/badge/Competitive%20Programming-7c3aed?style=for-the-badge&logo=codeforces&logoColor=white" alt="Competitive programming" />
-</div>
-
-## Frameworks I've built with
-
-The list below summarizes the frameworks I work with. The project links highlight current public implementations of each stack.
-
-| Area | Frameworks | Projects |
-| --- | --- | --- |
-| Frontend | `React` · `Next.js` · `Vite` · `Tailwind CSS` | [Smacco](https://github.com/Hoaiduc195/smacco_repo) · [Call Shield](https://github.com/Hoaiduc195/call_shield) · [AIC 2026](https://github.com/Hoaiduc195/aic2026) · [ForgeHacks](https://github.com/Hoaiduc195/forgehacks) |
-| Backend & APIs | `NestJS` · `FastAPI` · `Fastify` · `Express` · `Flask` | [AIC 2026](https://github.com/Hoaiduc195/aic2026) · [Smacco](https://github.com/Hoaiduc195/smacco_repo) · [Call Shield](https://github.com/Hoaiduc195/call_shield) · [R2 Console](https://github.com/Hoaiduc195/r2_console) |
-| AI, ML & realtime | `PyTorch` · `Transformers` · `LiveKit` | [AIC 2026](https://github.com/Hoaiduc195/aic2026) · [ForgeHacks](https://github.com/Hoaiduc195/forgehacks) |
-
-## Toolbox
-
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <strong>Languages</strong><br /><br />
-      <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="C" />
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />
-    </td>
-    <td valign="top" width="33%">
-      <strong>Frameworks &amp; data</strong><br /><br />
-      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
-    </td>
-    <td valign="top" width="33%">
-      <strong>Tools</strong><br /><br />
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-      <img src="https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=flat-square&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
-    </td>
-  </tr>
-</table>
-
-## GitHub at a glance
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hoaiduc195&show_icons=true&hide_border=true&include_all_commits=false&count_private=false&rank_icon=github&theme=github_dark&title_color=5eead4&icon_color=5eead4" alt="Hoaiduc195 GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hoaiduc195&layout=compact&hide_border=true&include_all_commits=false&count_private=false&theme=github_dark&title_color=5eead4" alt="Most used languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Hoaiduc195&theme=dark&hide_border=true&ring=5eead4&fire=f59e0b&currStreakLabel=5eead4" alt="GitHub contribution streak" width="70%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hoaiduc195&theme=github_dark" alt="GitHub profile summary" width="96%" />
-</div>
-
-## Let's connect
-
-<div align="center">
   <a href="mailto:duchoaiduong100@gmail.com">
-    <img src="https://img.shields.io/badge/Email-duchoaiduong100%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Hoai Duc Duong" />
+    <img src="https://img.shields.io/badge/Email-duchoaiduong100%40gmail.com-090d1f?style=for-the-badge&logo=gmail&logoColor=f472b6&labelColor=0f172a" alt="Email" />
   </a>
-  <img src="https://img.shields.io/badge/Discord-hoaiduc__19-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord hoaiduc_19" />
+  <img src="https://img.shields.io/badge/Discord-hoaiduc__19-090d1f?style=for-the-badge&logo=discord&logoColor=c084fc&labelColor=0f172a" alt="Discord" />
+  <img src="https://komarev.com/ghpvc/?username=Hoaiduc195&style=for-the-badge&color=0d9488&labelColor=0f172a&label=VIEWS" alt="Profile Views" />
 </div>
 
 <br />
 
 <div align="center">
-  <sub>Thanks for stopping by — feel free to explore, connect, or say hello.</sub>
+  <img src="./assets/terminal.svg" alt="Hoai Duc Duong Identity Terminal" width="98%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="96%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/focus-areas.svg" alt="Research and Exploration Domains" width="98%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="96%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/tech-stack.svg" alt="Tech Arsenal and Stack" width="98%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="96%" />
+</div>
+
+<br />
+
+<div align="center">
+  <sub><code>// GITHUB TELEMETRY &amp; ACTIVITY</code></sub>
+</div>
+
+<br />
+
+<div align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Hoaiduc195&show_icons=true&hide_border=false&border_radius=14&bg_color=090d1f&border_color=1e293b&title_color=5eead4&icon_color=c084fc&text_color=cbd5e1&ring_color=22d3ee&rank_icon=github" alt="Hoaiduc195 GitHub Stats" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hoaiduc195&layout=compact&hide_border=false&border_radius=14&bg_color=090d1f&border_color=1e293b&title_color=5eead4&text_color=cbd5e1" alt="Most Used Languages" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=Hoaiduc195&background=090d1f&border=1e293b&border_radius=14&stroke=1e293b&ring=22d3ee&fire=c084fc&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=5eead4&sideLabels=94a3b8&dates=64748b" alt="GitHub Contribution Streak" width="76%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hoaiduc195&bg_color=090d1f&color=94a3b8&line=22d3ee&point=c084fc&area=true&area_color=14b8a6&hide_border=false&border_color=1e293b&radius=14" alt="Hoaiduc195 Contribution Activity Graph" width="96%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/footer.svg" alt="Thanks for stopping by" width="98%" />
 </div>

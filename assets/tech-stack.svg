@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 315" width="100%" height="100%" role="img" aria-label="Tech Arsenal">
+  <defs>
+    <linearGradient id="boxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1121" />
+      <stop offset="100%" stop-color="#070b17" />
+    </linearGradient>
+
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#131c31" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <filter id="dotGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .sec-title {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: 3px;
+      fill: #94a3b8;
+      font-weight: 600;
+    }
+    .cat-title {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+    .pill-lbl {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #e2e8f0;
+    }
+    @keyframes pulseSoft {
+      0%, 100% { opacity: 0.65; }
+      50% { opacity: 1; }
+    }
+    .pdot { animation: pulseSoft 2.4s ease-in-out infinite; }
+  </style>
+
+  <text x="500" y="18" text-anchor="middle" class="sec-title">// TECH ARSENAL &amp; STACK</text>
+
+  <!-- Row 1 Left: Languages -->
+  <g transform="translate(10, 34)">
+    <rect width="482" height="126" rx="14" fill="url(#boxBg)" stroke="#14b8a6" stroke-opacity="0.38" stroke-width="1.2" />
+    <circle class="pdot" cx="24" cy="24" r="4.5" fill="#2dd4bf" filter="url(#dotGlow)" />
+    <text x="38" y="28" class="cat-title" fill="#5eead4">LANGUAGES</text>
+
+    <!-- Pills Row 1 -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="66" height="28" rx="8" fill="url(#pillBg)" stroke="#2dd4bf" stroke-opacity="0.4" />
+      <text x="33" y="18" text-anchor="middle" class="pill-lbl">C</text>
+
+      <rect x="76" y="0" width="76" height="28" rx="8" fill="url(#pillBg)" stroke="#2dd4bf" stroke-opacity="0.4" />
+      <text x="114" y="18" text-anchor="middle" class="pill-lbl">C++</text>
+
+      <rect x="162" y="0" width="90" height="28" rx="8" fill="url(#pillBg)" stroke="#2dd4bf" stroke-opacity="0.4" />
+      <text x="207" y="18" text-anchor="middle" class="pill-lbl">Python</text>
+
+      <rect x="262" y="0" width="106" height="28" rx="8" fill="url(#pillBg)" stroke="#2dd4bf" stroke-opacity="0.4" />
+      <text x="315" y="18" text-anchor="middle" class="pill-lbl">TypeScript</text>
+    </g>
+    <!-- Pills Row 2 -->
+    <g transform="translate(20, 84)">
+      <rect x="0" y="0" width="106" height="28" rx="8" fill="url(#pillBg)" stroke="#2dd4bf" stroke-opacity="0.4" />
+      <text x="53" y="18" text-anchor="middle" class="pill-lbl">JavaScript</text>
+
+      <rect x="116" y="0" width="84" height="28" rx="8" fill="url(#pillBg)" stroke="#2dd4bf" stroke-opacity="0.4" />
+      <text x="158" y="18" text-anchor="middle" class="pill-lbl">LaTeX</text>
+    </g>
+  </g>
+
+  <!-- Row 1 Right: AI, ML & Data -->
+  <g transform="translate(508, 34)">
+    <rect width="482" height="126" rx="14" fill="url(#boxBg)" stroke="#a855f7" stroke-opacity="0.38" stroke-width="1.2" />
+    <circle class="pdot" cx="24" cy="24" r="4.5" fill="#c084fc" filter="url(#dotGlow)" />
+    <text x="38" y="28" class="cat-title" fill="#d8b4fe">AI, ML &amp; DATA</text>
+
+    <!-- Pills Row 1 -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="92" height="28" rx="8" fill="url(#pillBg)" stroke="#c084fc" stroke-opacity="0.4" />
+      <text x="46" y="18" text-anchor="middle" class="pill-lbl">PyTorch</text>
+
+      <rect x="102" y="0" width="124" height="28" rx="8" fill="url(#pillBg)" stroke="#c084fc" stroke-opacity="0.4" />
+      <text x="164" y="18" text-anchor="middle" class="pill-lbl">Transformers</text>
+
+      <rect x="236" y="0" width="88" height="28" rx="8" fill="url(#pillBg)" stroke="#c084fc" stroke-opacity="0.4" />
+      <text x="280" y="18" text-anchor="middle" class="pill-lbl">LiveKit</text>
+
+      <rect x="334" y="0" width="90" height="28" rx="8" fill="url(#pillBg)" stroke="#c084fc" stroke-opacity="0.4" />
+      <text x="379" y="18" text-anchor="middle" class="pill-lbl">NumPy</text>
+    </g>
+    <!-- Pills Row 2 -->
+    <g transform="translate(20, 84)">
+      <rect x="0" y="0" width="90" height="28" rx="8" fill="url(#pillBg)" stroke="#c084fc" stroke-opacity="0.4" />
+      <text x="45" y="18" text-anchor="middle" class="pill-lbl">Pandas</text>
+
+      <rect x="100" y="0" width="114" height="28" rx="8" fill="url(#pillBg)" stroke="#c084fc" stroke-opacity="0.4" />
+      <text x="157" y="18" text-anchor="middle" class="pill-lbl">scikit-learn</text>
+    </g>
+  </g>
+
+  <!-- Row 2 Left: Frontend, Backend & Databases -->
+  <g transform="translate(10, 176)">
+    <rect width="664" height="128" rx="14" fill="url(#boxBg)" stroke="#06b6d4" stroke-opacity="0.38" stroke-width="1.2" />
+    <circle class="pdot" cx="24" cy="24" r="4.5" fill="#38bdf8" filter="url(#dotGlow)" />
+    <text x="38" y="28" class="cat-title" fill="#7dd3fc">WEB, APIS &amp; DATABASES</text>
+
+    <!-- Pills Row 1 -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="76" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="38" y="18" text-anchor="middle" class="pill-lbl">React</text>
+
+      <rect x="86" y="0" width="84" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="128" y="18" text-anchor="middle" class="pill-lbl">Next.js</text>
+
+      <rect x="180" y="0" width="68" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="214" y="18" text-anchor="middle" class="pill-lbl">Vite</text>
+
+      <rect x="258" y="0" width="118" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="317" y="18" text-anchor="middle" class="pill-lbl">Tailwind CSS</text>
+
+      <rect x="386" y="0" width="90" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="431" y="18" text-anchor="middle" class="pill-lbl">FastAPI</text>
+
+      <rect x="486" y="0" width="86" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="529" y="18" text-anchor="middle" class="pill-lbl">NestJS</text>
+    </g>
+
+    <!-- Pills Row 2 -->
+    <g transform="translate(20, 84)">
+      <rect x="0" y="0" width="84" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="42" y="18" text-anchor="middle" class="pill-lbl">Fastify</text>
+
+      <rect x="94" y="0" width="90" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="139" y="18" text-anchor="middle" class="pill-lbl">Express</text>
+
+      <rect x="194" y="0" width="76" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="232" y="18" text-anchor="middle" class="pill-lbl">Flask</text>
+
+      <rect x="280" y="0" width="114" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="337" y="18" text-anchor="middle" class="pill-lbl">PostgreSQL</text>
+
+      <rect x="404" y="0" width="106" height="28" rx="8" fill="url(#pillBg)" stroke="#38bdf8" stroke-opacity="0.4" />
+      <text x="457" y="18" text-anchor="middle" class="pill-lbl">MongoDB</text>
+    </g>
+  </g>
+
+  <!-- Row 2 Right: Tools -->
+  <g transform="translate(690, 176)">
+    <rect width="300" height="128" rx="14" fill="url(#boxBg)" stroke="#ec4899" stroke-opacity="0.38" stroke-width="1.2" />
+    <circle class="pdot" cx="24" cy="24" r="4.5" fill="#f472b6" filter="url(#dotGlow)" />
+    <text x="38" y="28" class="cat-title" fill="#f9a8d4">TOOLS &amp; ENV</text>
+
+    <!-- Pills Row 1 -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="72" height="28" rx="8" fill="url(#pillBg)" stroke="#f472b6" stroke-opacity="0.4" />
+      <text x="36" y="18" text-anchor="middle" class="pill-lbl">Git</text>
+
+      <rect x="82" y="0" width="90" height="28" rx="8" fill="url(#pillBg)" stroke="#f472b6" stroke-opacity="0.4" />
+      <text x="127" y="18" text-anchor="middle" class="pill-lbl">GitHub</text>
+    </g>
+    <!-- Pills Row 2 -->
+    <g transform="translate(20, 84)">
+      <rect x="0" y="0" width="166" height="28" rx="8" fill="url(#pillBg)" stroke="#f472b6" stroke-opacity="0.4" />
+      <text x="83" y="18" text-anchor="middle" class="pill-lbl">Windows Terminal</text>
+    </g>
+  </g>
+</svg>

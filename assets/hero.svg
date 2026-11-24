@@ -1,0 +1,342 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="Hoai Duc Duong — Computer Science Student at HCMUS">
+  <defs>
+    <!-- Deep Cosmic Obsidian Background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#090d1f" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Aurora Blobs -->
+    <radialGradient id="auroraCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.42" />
+      <stop offset="55%" stop-color="#0891b2" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.40" />
+      <stop offset="55%" stop-color="#6d28d9" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.28" />
+      <stop offset="60%" stop-color="#db2777" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#0d9488" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Title Neon Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="30%" stop-color="#38bdf8" />
+      <stop offset="65%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Scanline Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Orbit Ring Gradient -->
+    <linearGradient id="ringGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="ringGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowStrong" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1" />
+    </pattern>
+
+    <!-- Clip Path for rounded canvas -->
+    <clipPath id="canvasClip">
+      <rect x="2" y="2" width="1196" height="376" rx="20" ry="20" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .title {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 62px;
+      letter-spacing: 6px;
+    }
+    .subtitle {
+      font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      font-size: 15px;
+      letter-spacing: 2.2px;
+      fill: #cbd5e1;
+    }
+    .pill-text {
+      font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+      font-size: 11.5px;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    .hud-text {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      fill: #64748b;
+    }
+
+    @keyframes drift1 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(45px, -25px) scale(1.12); }
+    }
+    @keyframes drift2 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-50px, 30px) scale(1.15); }
+    }
+    @keyframes drift3 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(30px, 25px) scale(1.1); }
+    }
+    @keyframes spinCW {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spinCCW {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes scanSweep {
+      0% { transform: translateY(-60px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateY(420px); opacity: 0; }
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.78); }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.95; }
+    }
+    @keyframes synapseFlow {
+      0% { stroke-dashoffset: 240; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes glitchCyan {
+      0%, 92%, 100% { transform: translate(0, 0); opacity: 0; }
+      94% { transform: translate(-3px, -1px); opacity: 0.75; }
+      96% { transform: translate(2px, 1px); opacity: 0.55; }
+      98% { transform: translate(-2px, 0); opacity: 0.7; }
+    }
+    @keyframes glitchPink {
+      0%, 92%, 100% { transform: translate(0, 0); opacity: 0; }
+      94% { transform: translate(3px, 1px); opacity: 0.75; }
+      96% { transform: translate(-2px, -1px); opacity: 0.55; }
+      98% { transform: translate(2px, 0); opacity: 0.7; }
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .blob1 { animation: drift1 11s ease-in-out infinite; transform-origin: 260px 120px; }
+    .blob2 { animation: drift2 14s ease-in-out infinite; transform-origin: 940px 250px; }
+    .blob3 { animation: drift3 12s ease-in-out infinite; transform-origin: 620px 60px; }
+    .orbit-cw { animation: spinCW 28s linear infinite; transform-origin: 600px 190px; }
+    .orbit-ccw { animation: spinCCW 22s linear infinite; transform-origin: 600px 190px; }
+    .orbit-inner { animation: spinCW 15s linear infinite; transform-origin: 600px 190px; }
+    .scanline { animation: scanSweep 6s linear infinite; }
+    .pulse-dot { animation: pulseDot 2s ease-in-out infinite; transform-origin: 432px 76px; }
+    .twinkle-a { animation: twinkle 3.2s ease-in-out infinite; }
+    .twinkle-b { animation: twinkle 4.5s ease-in-out infinite 1.1s; }
+    .twinkle-c { animation: twinkle 2.8s ease-in-out infinite 0.5s; }
+    .synapse { stroke-dasharray: 12 228; animation: synapseFlow 4s linear infinite; }
+    .synapse-slow { stroke-dasharray: 16 224; animation: synapseFlow 5.5s linear infinite; }
+    .glitch-c { animation: glitchCyan 5.5s infinite; }
+    .glitch-p { animation: glitchPink 5.5s infinite; }
+    .float-group { animation: floatSlow 6s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#canvasClip)">
+    <!-- Background -->
+    <rect width="1200" height="380" fill="url(#bgGrad)" />
+    <rect width="1200" height="380" fill="url(#cyberGrid)" />
+
+    <!-- Animated Aurora Mesh -->
+    <ellipse class="blob1" cx="260" cy="120" rx="340" ry="210" fill="url(#auroraCyan)" />
+    <ellipse class="blob2" cx="940" cy="250" rx="360" ry="220" fill="url(#auroraViolet)" />
+    <ellipse class="blob3" cx="620" cy="70" rx="300" ry="170" fill="url(#auroraTeal)" />
+    <ellipse class="blob1" cx="840" cy="95" rx="220" ry="150" fill="url(#auroraPink)" />
+
+    <!-- Perspective Horizon Lines -->
+    <g stroke="#38bdf8" stroke-opacity="0.10" stroke-width="1">
+      <line x1="0" y1="330" x2="1200" y2="330" />
+      <line x1="0" y1="355" x2="1200" y2="355" />
+      <line x1="600" y1="260" x2="120" y2="380" />
+      <line x1="600" y1="260" x2="360" y2="380" />
+      <line x1="600" y1="260" x2="600" y2="380" />
+      <line x1="600" y1="260" x2="840" y2="380" />
+      <line x1="600" y1="260" x2="1080" y2="380" />
+    </g>
+
+    <!-- Neural Network Constellation — Left -->
+    <g opacity="0.72">
+      <g stroke="#22d3ee" stroke-opacity="0.22" stroke-width="1">
+        <line x1="70" y1="90" x2="165" y2="145" />
+        <line x1="165" y1="145" x2="115" y2="255" />
+        <line x1="165" y1="145" x2="265" y2="205" />
+        <line x1="70" y1="90" x2="225" y2="75" />
+        <line x1="225" y1="75" x2="165" y2="145" />
+        <line x1="115" y1="255" x2="265" y2="205" />
+        <line x1="265" y1="205" x2="210" y2="310" />
+      </g>
+      <!-- Animated Energy Packets Left -->
+      <g fill="none" stroke="#5eead4" stroke-width="2" filter="url(#glowSoft)">
+        <path class="synapse" d="M 70 90 L 165 145 L 265 205 L 210 310" />
+        <path class="synapse-slow" d="M 225 75 L 165 145 L 115 255" />
+      </g>
+      <!-- Nodes Left -->
+      <circle cx="70" cy="90" r="3.5" fill="#22d3ee" filter="url(#glowSoft)" />
+      <circle cx="165" cy="145" r="4.5" fill="#5eead4" filter="url(#glowSoft)" />
+      <circle cx="225" cy="75" r="3" fill="#38bdf8" />
+      <circle cx="115" cy="255" r="3.5" fill="#a855f7" filter="url(#glowSoft)" />
+      <circle cx="265" cy="205" r="4" fill="#22d3ee" />
+      <circle cx="210" cy="310" r="3" fill="#14b8a6" />
+    </g>
+
+    <!-- Neural Network Constellation — Right -->
+    <g opacity="0.72">
+      <g stroke="#a855f7" stroke-opacity="0.24" stroke-width="1">
+        <line x1="1130" y1="100" x2="1030" y2="155" />
+        <line x1="1030" y1="155" x2="1085" y2="265" />
+        <line x1="1030" y1="155" x2="935" y2="200" />
+        <line x1="1130" y1="100" x2="975" y2="80" />
+        <line x1="975" y1="80" x2="1030" y2="155" />
+        <line x1="1085" y1="265" x2="935" y2="200" />
+        <line x1="935" y1="200" x2="990" y2="315" />
+      </g>
+      <!-- Animated Energy Packets Right -->
+      <g fill="none" stroke="#c084fc" stroke-width="2" filter="url(#glowSoft)">
+        <path class="synapse" d="M 1130 100 L 1030 155 L 935 200 L 990 315" />
+        <path class="synapse-slow" d="M 975 80 L 1030 155 L 1085 265" />
+      </g>
+      <!-- Nodes Right -->
+      <circle cx="1130" cy="100" r="3.5" fill="#f472b6" filter="url(#glowSoft)" />
+      <circle cx="1030" cy="155" r="4.5" fill="#c084fc" filter="url(#glowSoft)" />
+      <circle cx="975" cy="80" r="3" fill="#38bdf8" />
+      <circle cx="1085" cy="265" r="3.5" fill="#22d3ee" filter="url(#glowSoft)" />
+      <circle cx="935" cy="200" r="4" fill="#a855f7" />
+      <circle cx="990" cy="315" r="3" fill="#ec4899" />
+    </g>
+
+    <!-- Holographic Orbital Rings (Center Backdrop) -->
+    <g opacity="0.45">
+      <g class="orbit-cw">
+        <ellipse cx="600" cy="190" rx="295" ry="118" fill="none" stroke="url(#ringGrad1)" stroke-width="1.4" stroke-dasharray="16 8 4 8" />
+        <circle cx="895" cy="190" r="4" fill="#22d3ee" filter="url(#glowSoft)" />
+        <circle cx="305" cy="190" r="3.5" fill="#ec4899" filter="url(#glowSoft)" />
+      </g>
+      <g class="orbit-ccw">
+        <ellipse cx="600" cy="190" rx="245" ry="140" fill="none" stroke="url(#ringGrad2)" stroke-width="1.1" stroke-dasharray="8 12" />
+        <circle cx="600" cy="50" r="3.5" fill="#5eead4" filter="url(#glowSoft)" />
+        <circle cx="600" cy="330" r="3.5" fill="#c084fc" filter="url(#glowSoft)" />
+      </g>
+      <g class="orbit-inner">
+        <circle cx="600" cy="190" r="158" fill="none" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="3 9" />
+      </g>
+    </g>
+
+    <!-- Twinkling Cosmic Particles -->
+    <g fill="#e2e8f0">
+      <circle class="twinkle-a" cx="310" cy="65" r="1.5" />
+      <circle class="twinkle-b" cx="445" cy="325" r="1.8" />
+      <circle class="twinkle-c" cx="760" cy="58" r="1.5" />
+      <circle class="twinkle-a" cx="870" cy="315" r="1.6" />
+      <circle class="twinkle-b" cx="150" cy="330" r="1.4" />
+      <circle class="twinkle-c" cx="1050" cy="55" r="1.7" />
+      <circle class="twinkle-a" cx="520" cy="42" r="1.3" />
+      <circle class="twinkle-b" cx="695" cy="340" r="1.4" />
+    </g>
+
+    <!-- Sweeping Holographic Scanline -->
+    <rect class="scanline" x="0" y="0" width="1200" height="44" fill="url(#scanGrad)" />
+
+    <!-- Center Hero Typography -->
+    <g class="float-group">
+      <!-- Status Telemetry Pill -->
+      <rect x="415" y="60" width="370" height="32" rx="16" fill="#0f172a" fill-opacity="0.78" stroke="#14b8a6" stroke-opacity="0.55" stroke-width="1.2" />
+      <circle class="pulse-dot" cx="432" cy="76" r="4.5" fill="#2dd4bf" filter="url(#glowSoft)" />
+      <text x="610" y="80" text-anchor="middle" class="pill-text" fill="#99f6e4">SYSTEM ONLINE // CS @ HCMUS</text>
+
+      <!-- Chromatic Glitch Ghost Layers -->
+      <text x="600" y="196" text-anchor="middle" class="title glitch-c" fill="#22d3ee">HOAI DUC DUONG</text>
+      <text x="600" y="196" text-anchor="middle" class="title glitch-p" fill="#f472b6">HOAI DUC DUONG</text>
+
+      <!-- Main Glowing Title -->
+      <text x="600" y="196" text-anchor="middle" class="title" fill="url(#titleGrad)" filter="url(#glowStrong)">HOAI DUC DUONG</text>
+      <text x="600" y="196" text-anchor="middle" class="title" fill="url(#titleGrad)">HOAI DUC DUONG</text>
+
+      <!-- Decorative Accent Bar -->
+      <line x1="410" y1="220" x2="790" y2="220" stroke="url(#titleGrad)" stroke-width="1.5" stroke-opacity="0.75" />
+      <polygon points="600,214 606,220 600,226 594,220" fill="#5eead4" filter="url(#glowSoft)" />
+
+      <!-- Subtitle -->
+      <text x="600" y="254" text-anchor="middle" class="subtitle">GENAI &amp; LLMS  ·  MACHINE LEARNING  ·  COMPUTER VISION  ·  SECURITY</text>
+
+      <!-- Handle Tag -->
+      <text x="600" y="290" text-anchor="middle" class="pill-text" fill="#94a3b8">&lt; @Hoaiduc195 // Building Intelligent &amp; Secure Systems /&gt;</text>
+    </g>
+
+    <!-- HUD Corner Reticles -->
+    <g stroke="#22d3ee" stroke-opacity="0.65" stroke-width="2" fill="none">
+      <path d="M 24 48 L 24 24 L 48 24" />
+      <path d="M 1152 24 L 1176 24 L 1176 48" />
+      <path d="M 24 332 L 24 356 L 48 356" />
+      <path d="M 1152 356 L 1176 356 L 1176 332" />
+    </g>
+
+    <!-- HUD Micro Telemetry -->
+    <text x="42" y="348" class="hud-text">LOC: HO CHI MINH CITY, VN</text>
+    <text x="1158" y="348" text-anchor="end" class="hud-text">NODE: HCMUS.CS // v2.6</text>
+  </g>
+
+  <!-- Outer Neon Frame -->
+  <rect x="2" y="2" width="1196" height="376" rx="20" ry="20" fill="none" stroke="url(#borderGrad)" stroke-width="1.8" />
+</svg>
