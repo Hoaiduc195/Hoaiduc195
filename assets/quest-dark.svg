@@ -45,18 +45,18 @@
     <rect x="8" y="196" width="8" height="8" fill="#f5c26b" />
     <rect x="944" y="196" width="8" height="8" fill="#f5c26b" />
 
-    <!-- Divider -->
-    <rect x="372" y="24" width="4" height="164" fill="#2a314a" />
+    <!-- Center Divider -->
+    <rect x="384" y="24" width="4" height="164" fill="#2a314a" />
 
-    <!-- Left Panel: Pixel Avatar Frame -->
-    <rect x="32" y="54" width="84" height="84" fill="#1d2438" />
-    <rect x="32" y="50" width="84" height="4" fill="#5a658c" />
-    <rect x="32" y="138" width="84" height="4" fill="#5a658c" />
-    <rect x="28" y="54" width="4" height="84" fill="#5a658c" />
-    <rect x="116" y="54" width="4" height="84" fill="#5a658c" />
+    <!-- Left Panel: Pixel Avatar Frame (flush at x=32, 104x104 square: y=54..158) -->
+    <rect x="36" y="58" width="96" height="96" fill="#1d2438" />
+    <rect x="36" y="54" width="96" height="4" fill="#5a658c" />
+    <rect x="36" y="154" width="96" height="4" fill="#5a658c" />
+    <rect x="32" y="58" width="4" height="96" fill="#5a658c" />
+    <rect x="132" y="58" width="4" height="96" fill="#5a658c" />
 
-    <!-- Cute Pixel Coder Sprite (12x12 scaled 4x) -->
-    <g transform="translate(50, 72)">
+    <!-- Cute Pixel Coder Sprite (centered inside 96x96 box) -->
+    <g transform="translate(60, 83)">
       <g class="sprite">
         <!-- Hair -->
         <rect x="12" y="0" width="24" height="4" fill="#2b263d" />
@@ -76,25 +76,25 @@
       </g>
     </g>
 
-    <!-- RPG Stat Bars -->
-    <g transform="translate(136, 108)">
+    <!-- RPG Stat Bars (flush with bottom of avatar frame at y=156) -->
+    <g transform="translate(154, 106)">
       <rect x="36" y="0" width="168" height="10" fill="#222a45" />
       <rect x="36" y="0" width="152" height="10" fill="#5eead4" />
-      <rect x="36" y="22" width="168" height="10" fill="#222a45" />
-      <rect x="36" y="22" width="138" height="10" fill="#8ecae6" />
-      <rect x="36" y="44" width="168" height="10" fill="#222a45" />
-      <rect x="36" y="44" width="126" height="10" fill="#f5c26b" />
+      <rect x="36" y="20" width="168" height="10" fill="#222a45" />
+      <rect x="36" y="20" width="138" height="10" fill="#8ecae6" />
+      <rect x="36" y="40" width="168" height="10" fill="#222a45" />
+      <rect x="36" y="40" width="126" height="10" fill="#f5c26b" />
     </g>
 
-    <!-- Right Panel: 5 Pixel Quest Icons -->
+    <!-- Right Panel: 5 Pixel Quest Icons (y=56, 86, 116, 146, 176) -->
     <!-- 1. GenAI Sparkle -->
-    <g transform="translate(404, 54)" fill="#5eead4">
+    <g transform="translate(416, 54)" fill="#5eead4">
       <rect x="6" y="0" width="4" height="16" />
       <rect x="0" y="6" width="16" height="4" />
       <rect x="4" y="4" width="8" height="8" fill="#f5f1e6" />
     </g>
     <!-- 2. ML Brain/Chip -->
-    <g transform="translate(404, 84)" fill="#8ecae6">
+    <g transform="translate(416, 84)" fill="#8ecae6">
       <rect x="4" y="4" width="8" height="8" />
       <rect x="6" y="0" width="4" height="4" />
       <rect x="6" y="12" width="4" height="4" />
@@ -102,14 +102,14 @@
       <rect x="12" y="6" width="4" height="4" />
     </g>
     <!-- 3. Vision Eye -->
-    <g transform="translate(404, 114)" fill="#93c5fd">
+    <g transform="translate(416, 114)" fill="#93c5fd">
       <rect x="4" y="2" width="8" height="4" />
       <rect x="0" y="6" width="16" height="4" />
       <rect x="4" y="10" width="8" height="4" />
       <rect x="6" y="6" width="4" height="4" fill="#141824" />
     </g>
     <!-- 4. Security Shield -->
-    <g transform="translate(404, 144)" fill="#fb7185">
+    <g transform="translate(416, 144)" fill="#fb7185">
       <rect x="2" y="0" width="12" height="4" />
       <rect x="2" y="4" width="12" height="6" />
       <rect x="4" y="10" width="8" height="3" />
@@ -117,7 +117,7 @@
       <rect x="6" y="4" width="4" height="4" fill="#f5f1e6" />
     </g>
     <!-- 5. CP Sword/Code -->
-    <g transform="translate(404, 174)" fill="#f5c26b">
+    <g transform="translate(416, 174)" fill="#f5c26b">
       <rect x="0" y="6" width="4" height="4" />
       <rect x="4" y="2" width="4" height="4" />
       <rect x="4" y="10" width="4" height="4" />
@@ -129,30 +129,30 @@
 
   <!-- Left Text -->
   <text x="32" y="38" class="hdr">PLAYER STATUS</text>
-  <text x="136" y="70" class="lbl">Hoai Duc Duong</text>
-  <text x="136" y="90" class="desc">Class: CS @ HCMUS</text>
+  <text x="154" y="68" class="lbl">Hoai Duc Duong</text>
+  <text x="154" y="88" class="desc">Class: CS @ HCMUS</text>
 
-  <text x="136" y="117" class="stat-txt">INT</text>
-  <text x="136" y="139" class="stat-txt">VIS</text>
-  <text x="136" y="161" class="stat-txt">SEC</text>
+  <text x="154" y="115" class="stat-txt">INT</text>
+  <text x="154" y="135" class="stat-txt">VIS</text>
+  <text x="154" y="155" class="stat-txt">SEC</text>
 
-  <text x="32" y="182" class="desc">Loc: Ho Chi Minh City</text>
+  <text x="32" y="186" class="desc">Loc: Ho Chi Minh City, VN</text>
 
   <!-- Right Text: Quests -->
-  <text x="404" y="38" class="hdr">ACTIVE QUESTS</text>
+  <text x="416" y="38" class="hdr">ACTIVE QUESTS</text>
 
-  <text x="434" y="67" class="lbl">GenAI &amp; LLMs</text>
-  <text x="642" y="67" class="desc">Agents, reasoning &amp; inference</text>
+  <text x="444" y="66" class="lbl">GenAI &amp; LLMs</text>
+  <text x="618" y="66" class="desc">Agents, reasoning &amp; inference</text>
 
-  <text x="434" y="97" class="lbl">ML &amp; RL</text>
-  <text x="642" y="97" class="desc">Deep learning &amp; optimization</text>
+  <text x="444" y="96" class="lbl">ML &amp; RL</text>
+  <text x="618" y="96" class="desc">Deep learning &amp; optimization</text>
 
-  <text x="434" y="127" class="lbl">Computer Vision</text>
-  <text x="642" y="127" class="desc">Perception &amp; visual understanding</text>
+  <text x="444" y="126" class="lbl">Computer Vision</text>
+  <text x="618" y="126" class="desc">Perception &amp; visual understanding</text>
 
-  <text x="434" y="157" class="lbl">Security</text>
-  <text x="642" y="157" class="desc">Secure systems &amp; defense</text>
+  <text x="444" y="156" class="lbl">Security</text>
+  <text x="618" y="156" class="desc">Secure systems &amp; defense</text>
 
-  <text x="434" y="187" class="lbl">Competitive Prog.</text>
-  <text x="642" y="187" class="desc">Algorithms &amp; problem solving</text>
+  <text x="444" y="186" class="lbl">Competitive Prog.</text>
+  <text x="618" y="186" class="desc">Algorithms &amp; problem solving</text>
 </svg>
